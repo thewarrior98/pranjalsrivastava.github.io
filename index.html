@@ -1,123 +1,572 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | Resume</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f9;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: #2c3e50;
-      color: #fff;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      margin: 0.5rem 0 0;
-      font-size: 1.2rem;
-    }
-    main {
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem 1rem;
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    h2 {
-      border-bottom: 2px solid #2c3e50;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-      color: #2c3e50;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    ul li {
-      margin-bottom: 0.5rem;
-    }
-    .contact a {
-      color: #2c3e50;
-      text-decoration: none;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #2c3e50;
-      color: #fff;
-    }
-  </style>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Pranjal</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	  <link href="images/icon.jpg" rel="icon">
+
 </head>
-<body>
-  <header>
-    <h1>Your Name</h1>
-    <p>Cybersecurity Professional | AppSec & VAPT Specialist</p>
-    <p class="contact">
-      📧 <a href="mailto:youremail@example.com">youremail@example.com</a> |
-      🔗 <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
-      💻 <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-    </p>
-  </header>
 
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>
-        Short intro about yourself. Example: Experienced Cybersecurity Analyst with
-        a strong background in Application Security, VAPT, and secure SDLC. Passionate
-        about breaking and securing apps, with proven expertise in cloud and web app
-        security.
-      </p>
-    </section>
+<body id="top">
 
-    <section>
-      <h2>Experience</h2>
-      <ul>
-        <li><b>Senior Associate Consultant</b> – Infosys (2025–Present)</li>
-        <li><b>Cybersecurity Analyst</b> – Accenture (2022–2025)</li>
-      </ul>
-    </section>
 
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li>B.Tech – Computer Science (Your University, Year)</li>
-      </ul>
-    </section>
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
 
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>Application Security, VAPT, Penetration Testing</li>
-        <li>Networking & Cloud Security</li>
-        <li>Python, Burp Suite, OWASP ZAP</li>
-      </ul>
-    </section>
+   	<div class="intro-overlay"></div>	
 
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li><b>Web App Pentesting</b> – Identified & remediated security flaws in production web apps.</li>
-        <li><b>Cloud Security Hardening</b> – Configured secure AWS workloads with IAM best practices.</li>
-      </ul>
-    </section>
-  </main>
+   	<div class="intro-content">
+   		<div class="row">
 
-  <footer>
-    <p>© 2025 Your Name | Hosted on GitHub Pages</p>
-  </footer>
+   			<div class="col-twelve">
+
+	   			<h1>Hey, I'm <br>
+					Pranjal Srivastava </h1><br>
+	   			
+				
+	   			<p class="intro-position">
+	   				<span>Security Consultant</span>
+	   				<span>Vulnerability Management Specialist</span>
+					<span> DAST & Burp Suite Expert</span>
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">Explore My Cyber Journey</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="https://www.facebook.com/pranjal.shrivastava.1675"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/pranjal-shrivastava-a34479134"><i class="fa fa-linkedin"></i></a></li>
+         <li><a href="https://www.instagram.com/pranjal.s8/"><i class="fa fa-instagram"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead">I’m Pranjal Srivastava, a cybersecurity specialist focused on securing web applications and APIs. 
+					With a strong foundation in vulnerability assessment, secure coding practices, and threat mitigation, 
+					I help organizations build resilient digital platforms that stand up to modern cyber risks.	
+				</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Pranjal Srivastava</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>September  04, 1998</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>Cybersecurity Specialist | Web Security Analyst | API Security Consultant</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span>www.pranjal.tech</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>srivastavapranjal591@gmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>Infra Security</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent80"><span>80%</span></div>
+				   	<strong>Vulnerability Assessment</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent95"><span>95%</span></div>
+				   	<strong>Web Application Security</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>API Security</strong>
+				   </li>
+				   <li>
+
+				   	<div class="progress percent80"><span>80%</span></div>
+				   	<strong>Secure Coding Practices</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="mailto:srivastavapranjal591@gmail.com" title="Contact Me" class="button button-primary">Contact Me</a>
+   			<a href="#services" title="Download CV" class="button stroke smoothscroll">My Services</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">I think the only way for you to grow and evolve is to keep listening, keep moving forward, keep jumping in and trying to experience.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+				
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Senior Associate Consultant</h3>
+	   					<p>July 2025 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Infosys</h4>
+	   					<p>At Infosys, I specialize in application and infrastructure security. My responsibilities include performing SAST and DAST assessments on web applications, identifying vulnerabilities, and providing remediation guidance. I also contribute to infrastructure security reviews, ensuring compliance with industry standards and strengthening the client’s overall security posture.</p>
+
+	   			</div> <!-- /timeline-block -->
+
+				
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Security Delivery Analyst</h3>
+	   					<p>April 2021 - June 2025</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Accenture</h4>
+	   					<p>At Accenture, I worked as a Security Analyst, performing end-to-end vulnerability assessments on web, API, and mobile applications using AppScan and Fortify. I authored technical reports, validated false positives, and provided remediation guidance to development teams while also contributing to incident detection, risk analysis, and mentoring junior analysts.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Growth Hacker</h3>
+	   					<p>April 2019 - March 2021</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Dhundo: A Venture by IB Technology's </h4>
+	   					<p> At Dhundo, I contributed to developing and enhancing the platform’s web presence by building user-friendly interfaces and optimizing site performance. I worked on improving platform accessibility, integrating features to support jobs and events, and aligning technical improvements with user growth strategies to strengthen engagement.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Campus Ambassador</h3>
+	   					<p>Dec 2018 - Jan 2019</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>AXIS,VNIT Nagpur</h4>
+	   					<p>As a PR Coordinator for AXIS VNIT, I managed outreach initiatives, built partnerships, and promoted India’s largest technical festival. I coordinated with sponsors, handled communications, and ensured strong brand presence through effective technical and non-technical engagement.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor's Degree</h3>
+	   					<p>August 2016 - April 2020</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>RGPV University</h4>
+	   					<p>Completed Bachelor of Engineering in Computer Science from Oriental college.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Senior Secondary </h3>
+	   					<p>April 2015 - May 2016</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Sant Atulanand Convent School</h4>
+	   					<p>Completed my 12th Schooling from Sant Atulanad Convent School,Varanasi.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>10th Schooling</h3>
+	   					<p>April 2013 - May 2014</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Sant Atulanand Convent School</h4>
+	   					<p>Completed my 10th Schooling from Sant Atulanad Convent School,Varanasi.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+
+
+
+
+	<!-- CTA Section
+   ================================================== -->
+	<section id="cta" class="grey-section">
+
+   	<div class="row cta-content">
+
+   		<div class="col-twelve section-ads">  
+
+	     		<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Having any opportunity for me?</a></h2>
+
+		      <p class="lead">
+		      Securing web apps and APIs is what I do best—vulnerability assessment, threat modeling, and mitigation built into every layer. If you're deploying something critical, let's lock it down.</p>
+
+				<div class="action">
+			      <a class="button button-primary large" href="tel:8319053423">Call me Now</a>
+		      </div>		     	
+
+   		</div>
+
+   	</div> <!-- /cta-content -->
+
+   </section> <!-- /cta --> 
+
+	
+
+
+	<!-- stats Section
+   ================================================== -->
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							4
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> <!-- /stat -->
+					
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							12
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div> <!-- /stat -->					
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1212</h3>
+
+						<h5 class="stat-title">
+							Linkedin Connections
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 class="stat-count">
+							5
+						</h3>
+
+						<h5 class="stat-title">
+							Hackathon's Praticipated
+						</h5>
+
+					</div> <!-- /stat -->									
+
+					
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-cup"></i>
+						</div>
+
+						<h3 class="stat-count">
+							525
+						</h3>
+
+						<h5 class="stat-title">
+							Coffee Cups
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							3000
+						</h3>
+
+						<h5 class="stat-title">
+							Hours spend <br>
+							on Idea.
+						</h5>
+
+					</div> <!-- /stat -->
+
+				</div> <!-- /stats-list -->
+
+			</div> <!-- /twelve -->
+		</div> <!-- /row -->
+
+	</section> <!-- /stats -->
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact Me.</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+  
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            Any Guess?
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>srivastavapranjal591@gmail.com<br>	     
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone: (+91) 9336622463<br>
+			   </p>
+   		</div>
+   		<br><br>
+   	</div> <!-- /contact-info -->
+		<center><div class="copyright">
+		        	<span>© Copyright Pranjal Srivastava. All Rights Reserved.</span>
+		         </div>	</center>
+	</section> <!-- /contact -->
+
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
 </body>
-</html>
 
+</html>
